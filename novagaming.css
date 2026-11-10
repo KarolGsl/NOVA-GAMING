@@ -6,36 +6,14 @@ html{
 }
 
 :root {
-    /* COLORES */
     --fondo: #0E0E12;
     --superficie: #191922;
-    --tarjeta: #222230;
-
     --primario: #8B5CF6;
     --primario-hover: #7C3AED;
     --secundario: #C4B5FD;
-
     --texto: #F5F5F7;
     --texto-secundario: #A1A1AA;
     --borde: #343444;
-
-    /* ESPACIADOS */
-    --espacio-xs: 8px;
-    --espacio-sm: 16px;
-    --espacio-md: 24px;
-    --espacio-lg: 40px;
-    --espacio-xl: 64px;
-
-    /* BORDES */
-    --radio-sm: 8px;
-    --radio-md: 12px;
-    --radio-lg: 20px;
-
-    /* SOMBRAS */
-    --sombra: 0 8px 24px rgba(0, 0, 0, 0.3);
-
-    /* CONTENEDOR */
-    --ancho-maximo: 1200px;
 }
 
 body{
@@ -121,7 +99,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 30px;
-    max-width: var(--ancho-maximo);
+    max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
 }
